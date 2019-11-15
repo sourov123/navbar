@@ -118,6 +118,7 @@ nav ul li a:hover{
 		nav.active{
 		display:block;
 		width: 100%;
+                z-index:99999;
 
 	}
 	nav.active ul{
