@@ -17,6 +17,7 @@ header{
 	border-radius: 2px;
 	box-shadow: 1px 1px 1px 1px #091F5A;
 	overflow: hidden;
+	z-index:99999;
 }
 .logo{
 	color: #1BB588;
@@ -90,6 +91,7 @@ nav ul li a:hover{
 @media only screen and (max-width: 1200px){
 	header{
 		margin: 20px;
+		 z-index:99999;
 	}
 }
 @media only screen and (max-width: 768px){
@@ -118,11 +120,12 @@ nav ul li a:hover{
 		nav.active{
 		display:block;
 		width: 100%;
-                z-index:99999;
+               
 
 	}
 	nav.active ul{
 		display: block;
+		 z-index:99999;
 		
 	}
 	nav.active ul li a{
