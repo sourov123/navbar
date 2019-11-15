@@ -17,7 +17,7 @@ header{
 	border-radius: 2px;
 	box-shadow: 1px 1px 1px 1px #091F5A;
 	overflow: hidden;
-	z-index:99999;
+	z-index: 999999;
 }
 .logo{
 	color: #1BB588;
@@ -156,7 +156,7 @@ nav ul li a:hover{
 	
 		.mid{
 	position: absolute;
-	top: 70%;
+	top: 60%;
 	left: 50%;
 	background:#CFF4FF;
 	transform: translate(-50%,-50%);
@@ -167,6 +167,18 @@ nav ul li a:hover{
 	cursor: pointer;
 
 }
-
+header{
+	z-index:999999;
+	}
+		nav.active{
+		display:block;
+		width: 100%;
+		z-index:99999;
+               }
+	nav.active ul{
+		display: block;
+		 z-index:99999;
+		
+	}
 
 }
