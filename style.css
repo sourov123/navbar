@@ -120,9 +120,8 @@ nav ul li a:hover{
 		nav.active{
 		display:block;
 		width: 100%;
-               
-
-	}
+		z-index:99999;
+               }
 	nav.active ul{
 		display: block;
 		 z-index:99999;
@@ -157,7 +156,7 @@ nav ul li a:hover{
 	
 		.mid{
 	position: absolute;
-	top: 65%;
+	top: 70%;
 	left: 50%;
 	background:#CFF4FF;
 	transform: translate(-50%,-50%);
